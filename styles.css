@@ -1,0 +1,111 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Sections styling */
+section {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #d0e7fb;
+    border-radius: 8px;
+}
+
+/* Replace bullet points with asterisks */
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: "* ";
+    font-weight: bold;
+    color: #007acc;
+}
+
+/* Contact form */
+form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #007acc;
+    border-radius: 4px;
+    font-style: italic;
+}
+
+form button {
+    margin-top: 15px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-style: italic;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #005f99;
+}
+
+/* Footer */
+footer {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

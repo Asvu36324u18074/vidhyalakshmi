@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>S. Vidhyalakshmi Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>S. Vidhyalakshmi</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome!</h2>
+            <p>This is the portfolio of <strong>S. Vidhyalakshmi</strong>.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I am <strong>S. Vidhyalakshmi</strong>, studying II B.Sc (Computer Science) in Sree Abiraami Arts and Science College for Women, Keelalathur, Gudiyatham.</p>
+        </section>
+
+        <section id="certificates">
+            <h2>Certificates</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Cloud Computing</li>
+                <li>Overview of English Communication</li>
+                <li>One Day National Conference about AI</li>
+                <li>English Typewriting (Junior, Senior)</li>
+                <li>Add-on Course: Advertising Strategy</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label><br/>
+                <input type="text" id="name" name="name" placeholder="Your Name" required /><br/>
+
+                <label for="email">Email:</label><br/>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required /><br/>
+
+                <label for="phone">Phone:</label><br/>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9\-]+" required /><br/>
+
+                <button type="submit">Send</button>
+            </form>
+            <div id="formMessage"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 S. Vidhyalakshmi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
